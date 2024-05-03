@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Georgian:wght@100..900&display=swap');
+body{
+    background: linear-gradient(to right,rgb(40, 0, 40),rgb(0, 0, 35));
+}
+
+#flex1{
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    height: 200px;
+    
+}
+
+
+
+p{
+    color: white;
+    font-size: 30px;
+    font-family: "Noto Sans Georgian", sans-serif;
+    transition: 1s;
+}
+
+p:hover{
+    color: rgb(192, 31, 255);
+}
+
+.title{
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+
+d{
+    color: rgb(101, 0, 252);
+}
+
+
+
+
+#character{
+    height: 650px;
+    display: flex;
+  margin-left: 1200px;
+    
+    margin-top: -185px;
+    position: fixed;
+}
+
+#flex2{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 992px){
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .title{
+      font-size:  4rem;
+      
+    }
+}
+
+
+
